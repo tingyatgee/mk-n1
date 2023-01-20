@@ -23,8 +23,7 @@
 **注意**：  
 1、待构建的固件格式只支持rootfs.tar[.gz]、 ext4-factory.img[.gz]、root.ext4[.gz] 6种，推荐使用rootfs.tar.gz格式  
 2、默认不会清理out目录，有需要的手动删除，或者使用 `sudo ./make -c` 清理  
-3、一键安装到emmc命令为：  
-   `cd /root && ./emmc.sh`
+3、一键安装到emmc命令为: cd /root && ./emmc.sh
 
 ## 特别说明
 
