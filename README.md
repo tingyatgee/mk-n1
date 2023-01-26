@@ -23,9 +23,7 @@
 **注意**：  
 1、待构建的固件格式只支持rootfs.tar[.gz]、 ext4-factory.img[.gz]、root.ext4[.gz] 6种，推荐使用rootfs.tar.gz格式  
 2、默认不会清理out目录，有需要的手动删除，或者使用 `sudo ./make -c` 清理  
-3、一键安装到emmc命令为: cd /root && ./emmc.sh
-
-## 特别说明
+3、一键安装到emmc命令为: ./emmc.sh
 
 * 目录说明
    ```
@@ -34,9 +32,7 @@
    │       ├── boot-common.tar.gz            公有启动文件
    │       ├── firmware.tar.gz               armbian固件
    │       ├── kernel                        内核文件夹，在它下面添加你的自定义内核
-   │       │   ├── 4.18.7                    4.18.7-aml-s9xxx @XQ7
    │       │   ├── 4.19.106                  4.19.106-amlogic-flippy-27o @flippy
-   │       │   └── 5.4.20                    5.4.20-amlogic-flippy-25+ @flippy
    │       └── root                          rootfs文件夹，在它下面添加你的自定义文件
    │           ├── etc                       /etc 文件夹
    │           └── root                      /root 文件夹
@@ -64,10 +60,9 @@
    `sudo ./make -d -s 256 -k 4.19.106`，使用默认，并将分区大小设置为256m，内核版本设置为 `4.19.106 `
 
 * 自定义
-   * 使用自定义内核  
+     使用自定义内核  
      参照内核文件夹( `armbian/phicomm-n1/kernel/xxx` )下的文件提取kernel.tar.gz、modules.tar.gz
 
-   * 添加自定义文件  
+ * 添加自定义文件  
       向armbian/phicomm-n1/root目录添加你的文件
-
-      **注意**：添加的文件应保持与ROOTFS分区目录结构一致
+      添加的文件应保持与ROOTFS分区目录结构一致
