@@ -34,8 +34,8 @@
    │       ├── kernel                        内核文件夹，在它下面添加你的自定义内核
    │       │   ├── 4.19.106                  4.19.106-amlogic-flippy-27o @flippy
    │       └── root                          rootfs文件夹，在它下面添加你的自定义文件
-   │           ├── etc                       /etc 文件夹
-   │           └── root                      /root 文件夹
+   │           ├── etc                       /自定义配置文件
+   │           └── root                      /安装到emmc脚本
    ├── LICENSE                               license
    ├── make                                  构建脚本
    ├── openwrt                               固件文件夹(to build)
