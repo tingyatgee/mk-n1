@@ -1,0 +1,17 @@
+
+config ddns 'global'
+	option ddns_dateformat '%F %R'
+	option ddns_loglines '250'
+	option upd_privateip '0'
+
+config service '3322'
+	option service_name '3322.org'
+	option lookup_host 'yose.3322.org'
+	option domain 'yose.3322.org'
+	option username 'yose'
+	option password 'xxxxxxxx'
+	option interface 'lan'
+	option ip_source 'web'
+	option ip_url 'http://ip.3322.net'
+	option enabled '1'
+
