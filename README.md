@@ -32,7 +32,7 @@
    │       ├── boot-common.tar.gz            公有启动文件
    │       ├── firmware.tar.gz               armbian固件
    │       ├── kernel                        内核文件夹，在它下面添加你的自定义内核
-   │       │   ├── 4.19.106                  4.19.106-amlogic-flippy-27o @flippy
+   │       │   ├── 4.18.7                    4.18.7-aml-s9xxx
    │       └── root                          rootfs文件夹，在它下面添加你的自定义文件
    │           ├── etc                       /自定义配置文件
    │           └── root                      /安装到emmc脚本
@@ -54,7 +54,7 @@
    * examples：  
    `sudo ./make -c`，清理文件  
    `sudo ./make -d`，使用默认配置  
-   `sudo ./make -k 4.19.106`，将内核版本设置为 `4.19.106`  
+   `sudo ./make -k 4.18.7`，将内核版本设置为 `4.18.7`  
    `sudo ./make -s 256`，将ROOTFS分区大小设置为256m  
    `sudo ./make -d -s 256`，使用默认，并将分区大小设置为256m  
    `sudo ./make -d -s 256 -k 4.19.106`，使用默认，并将分区大小设置为256m，内核版本设置为 `4.19.106 `
