@@ -331,4 +331,4 @@ mkdir -p /mnt/${DST_NAME}p3/share
 echo "done"
 echo
 
-echo "All done, please reboot!"
+echo "All done, please reboot Goodbye!"
