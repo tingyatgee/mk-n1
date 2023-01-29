@@ -10,15 +10,16 @@
    Subtarget (ARMv8 multiplatform)  --->
    Target Profile (Default)  --->
    ```
-
-3. 将你编译好的固件拷贝到OpenWrt目录( 可以复制多个固件到此 )
-4. 使用sudo执行脚本  
-   `sudo ./make` 
-5. 按照提示操作，如，选择你要制作的固件、选择内核版本、设置ROOTFS分区大小等  
-   如果你不了解这些设置项，请直接回车即可，或者直接执行  
-   `sudo ./make -d`
-6. 等待构建完成，默认输出文件夹为out
-7. 写盘启动，写盘工具推荐 [Etcher](https://www.balena.io/etcher/)
+3. 拉取打包源码：
+   git clone https://github.com/dingyi139/OPP230.git
+4. 将你编译好的固件拷贝到OpenWrt目录( 可以复制多个固件到此 )
+5. 使用sudo执行脚本： 
+   sudo ./make
+6. 按照提示操作，如，选择你要制作的固件、选择内核版本、设置ROOTFS分区大小等  
+   如果你不了解这些设置项，请直接回车即可，或者直接执行： 
+   sudo ./make -d
+7. 等待构建完成，默认输出文件夹为out
+8. 写盘启动，写盘工具推荐 [Etcher](https://www.balena.io/etcher/)
 
 **注意**：  
 1. 待构建的固件格式只支持rootfs.tar[.gz]、 ext4-factory.img[.gz]、root.ext4[.gz] 6种，推荐使用rootfs.tar.gz格式  
