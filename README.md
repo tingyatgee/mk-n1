@@ -1,4 +1,4 @@
-# 构建斐讯N1 OpenWrt固件脚本
+# 构建Phicomm N1 OpenWrt固件脚本
 
 ## 使用方法
 
