@@ -2,7 +2,7 @@
 
 ## 使用方法
 
-1. Linux环境，推荐使用Ubuntu 18.04 LTS
+1. Linux环境，推荐使用Ubuntu 18.04.6 LTS
 2. 编译好待构建的OpenWrt固件
    编译N1固件的配置如下：
    ``` 
