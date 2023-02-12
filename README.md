@@ -11,7 +11,7 @@
    Target Profile (Default)  --->
    ```
 3. 拉取打包源码：
-   git clone https://github.com/dingyi139/OPP230.git
+   git clone https://github.com/dingyi139/mk-n1.git
 4. 将你编译好的固件拷贝到OpenWrt目录( 可以复制多个固件到此 )
 5. 使用sudo执行脚本： 
    sudo ./make
